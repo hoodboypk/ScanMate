@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="pk_back" size="6.000000 3.525896" />
+    <ImageTarget name="pk_front" size="6.000000 3.525896" />
+    <ImageTarget name="dj_back" size="6.000000 3.525896" />
+    <ImageTarget name="dj_front" size="6.000000 3.525896" />
+    <ImageTarget name="am_back" size="6.000000 3.525896" />
+    <ImageTarget name="am_front" size="6.000000 3.525896" />
     <ImageTarget name="card_marker" size="6.000000 7.330377" />
   </Tracking>
 </QCARConfig>
