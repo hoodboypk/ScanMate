@@ -19,4 +19,9 @@ public class LinkController : MonoBehaviour
     {
         Application.OpenURL("https://github.com/hoodboypk");
     }
+
+    public void openGmail()
+    {
+        Application.OpenURL("mailto:pratik.k2004@gmail.com");
+    }
 }
