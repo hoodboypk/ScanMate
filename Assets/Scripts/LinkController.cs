@@ -24,4 +24,9 @@ public class LinkController : MonoBehaviour
     {
         Application.OpenURL("mailto:pratik.k2004@gmail.com");
     }
+
+    public void gForm()
+    {
+        Application.OpenURL("https://docs.google.com/forms/d/1C1Kvcd6iqdIO_lM815a1lY-vini0ppaHqBjKuYv7y2k");
+    }
 }
