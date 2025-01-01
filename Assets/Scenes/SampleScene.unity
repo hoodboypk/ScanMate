@@ -207,7 +207,7 @@ RectTransform:
   m_GameObject: {fileID: 134867355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7499418, y: 1.2127919, z: 1}
+  m_LocalScale: {x: 0.9297029, y: 1.3404988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1352288464}
@@ -667,6 +667,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 134867355}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &558848875
 MonoBehaviour:
@@ -3348,14 +3360,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098272686}
-  m_LocalRotation: {x: -0.0067355055, y: 0.7214389, z: -0.6922557, w: -0.01621058}
-  m_LocalPosition: {x: 0.65, y: 2.4, z: 2.96}
+  m_LocalRotation: {x: -0.013873993, y: 0.7213367, z: -0.6923824, w: -0.009359744}
+  m_LocalPosition: {x: -0.13, y: 2.4, z: 2.96}
   m_LocalScale: {x: 1, y: 1, z: 0.39571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 326308286}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 87.514, y: 558.917, z: 377.057}
+  m_LocalEulerAnglesHint: {x: 87.626, y: 532.08, z: 350.197}
 --- !u!1 &2122221669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,7 +3405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -265.1, y: 179.4}
+  m_AnchoredPosition: {x: -305, y: 179.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2122221671
@@ -3465,6 +3477,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 558848873}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 134867355}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
